@@ -14,23 +14,54 @@ h1 {
   font-size: 5rem;
 }
 
-.creative {
-  color: rgb(251, 151, 30);
-}
-
 footer {
   text-align: right;
   color: midnightblue;
 }
 
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
 .card {
-  width: 40%;
+  width: 45%;
 }
 
 .left {
-  float:left;
+  float: left;
 }
 
 .right {
   float: right;
+}
+
+.creative {
+  color: rgb(237, 176, 35);
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
 }
