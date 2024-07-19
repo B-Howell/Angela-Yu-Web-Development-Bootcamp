@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brett Howell</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.25/fullpage.min.css" integrity="sha512-A7Hgc495WYRjDFNdIQ2B0eths46do08SH9bUocyn8cKl09HAq7kHJ9t+BA0tFH1qgTg+lI/mXPfgocdknvk3PQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 fixed-top"> 
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+      <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+      <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+      <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+    </ul>
+  </header>
+  
+  <div id="fullpage">
+    <div class="section">
+
+      <div class="slide" data-anchor="home">
+        <div class="background">
+          <div class="container-fluid text-center" style="height: 100vh;">
+            <div class="row h-100 align-items-center">
+              <div class="col-6 d-flex flex-column justify-content-center align-items-center content">
+                <h2 class="typing-effect1"></h2>
+                <a href="/" class="d-flex justify-content-center align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none logo" style="visibility: hidden;">
+                  <img src="./images/logo-navy-gray.svg" alt="Brett Howell" class="bi">
+                </a>
+                <h2 class="typing-effect2"></h2>
+                <h2 class="typing-effect3"></h2>
+              </div>
+              <div class="col-6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      
+      <div class="slide" data-anchor="resume">
+        <div class="resume-slide">
+          <iframe src="resume/Brett_Howell_Resume.pdf" width="70%" height="90%"></iframe>
+        </div>
+      </div>      
+    
+      <div class="slide" data-anchor="projects">
+        <div class="temp-style">
+          <h1>Projects!</h1>
+        </div>
+      </div>
+    
+      <div class="slide" data-anchor="blog">
+        <div class="temp-style">
+          <iframe src="https://blog.brettmhowell.com" width="100%" height="100%" title="blog"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.25/fullpage.min.js" integrity="sha512-rc+ezQrlvTWQ1bOJtmCN7Fm/GyfhIBX9eOZhbQ7BtSpnG8SgrafIjsl0jWh0a/zLsLj8wbzv2+vkAyZtYn7xwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="scripts.js" defer></script>
+</body>
+</html>
